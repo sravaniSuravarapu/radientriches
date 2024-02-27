@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/radientriches/static/css/main.85b2d396.css",
+    "main.js": "/radientriches/static/js/main.8745fa7a.js",
+    "index.html": "/radientriches/index.html",
+    "main.85b2d396.css.map": "/radientriches/static/css/main.85b2d396.css.map",
+    "main.8745fa7a.js.map": "/radientriches/static/js/main.8745fa7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b2d396.css",
+    "static/js/main.8745fa7a.js"
+  ]
+}
