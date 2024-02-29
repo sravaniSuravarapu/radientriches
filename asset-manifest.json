@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/radientriches/static/css/main.85b2d396.css",
-    "main.js": "/radientriches/static/js/main.8745fa7a.js",
+    "main.css": "/radientriches/static/css/main.a0c1a37b.css",
+    "main.js": "/radientriches/static/js/main.44861613.js",
     "index.html": "/radientriches/index.html",
-    "main.85b2d396.css.map": "/radientriches/static/css/main.85b2d396.css.map",
-    "main.8745fa7a.js.map": "/radientriches/static/js/main.8745fa7a.js.map"
+    "main.a0c1a37b.css.map": "/radientriches/static/css/main.a0c1a37b.css.map",
+    "main.44861613.js.map": "/radientriches/static/js/main.44861613.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b2d396.css",
-    "static/js/main.8745fa7a.js"
+    "static/css/main.a0c1a37b.css",
+    "static/js/main.44861613.js"
   ]
 }
