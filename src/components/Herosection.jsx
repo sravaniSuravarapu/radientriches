@@ -1,20 +1,17 @@
 import React from 'react'
 import monitor from '../assests/download 1.png'
-import { CiTrophy } from "react-icons/ci";
-import { IoDiamondOutline } from "react-icons/io5";
 import { FaStar } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import herodata from './data/herodata';
 import { FaCheckCircle } from "react-icons/fa";
-
+import { FaRegStar } from "react-icons/fa";
+import Whywedata from './data/Whywedata';
 
 const Herosection = () => {
   return (
     <>
     {herodata.map((item,index)=>(
-
         <div className='py-9 px-5'>
-
         {item.id === 1 || item.id === 2 ? (
     <div key={item.id} className='flex text-white items-center gap-1 bg-[#FF7724] w-[136px] p-1 rounded-tr-lg rounded-br-lg'>
       <item.icon className='text-[20px]' />
@@ -54,18 +51,14 @@ const Herosection = () => {
                 </div>
                 <div className='text-[16px] text-[#2C384A] py-4'>
                     <p>Why we love it</p>
-                    <div className='flex items-center gap-1'>
-                        <FaCheckCircle className='text-[#EBF5FF]'/>
-                        <p>Documentation</p>
-                    </div>
-                    <div className='flex items-center gap-1'>
-                        <FaCheckCircle className='text-[#EBF5FF]'/>
-                        <p>Easy Use</p>
-                    </div>
-                    <div className='flex items-center gap-1'>
-                        <FaCheckCircle className='text-[#EBF5FF]'/>
-                        <p>Out Of Box</p>
-                    </div>
+                    {
+                        Whywedata.map((value)=>(
+                            <div className='flex items-center gap-1'>
+                             <FaCheckCircle className=' text-[#EBF5FF] '/>
+                             <p>{value.description}</p>
+                           </div>
+                        ))
+                    }
                 </div>
                 </>
             ):null}
@@ -83,17 +76,14 @@ const Herosection = () => {
                 <FaStar/>
                 <FaStar/>
                 <FaStar/>
-                <FaStar/>
+                {item.id === 4 ? (
+                <FaRegStar/>):<FaStar/>}
                 </div>
             </div>
             <p className='bg-[#1B88F4] rounded-lg w-full py-2 flex items-center justify-center'>View</p>
         </div>
-
         </div>
-
-
         </div>
-
     ))}
         
     </>

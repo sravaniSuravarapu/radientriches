@@ -2,7 +2,6 @@ import React from 'react'
 import circleright from '../assests/IMAGE (1).png'
 import circlei from '../assests/IMAGE (2).png'
 import chevron from '../assests/IMAGE (3).png'
-import chevronleft from '../assests/Vector (3).png'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 

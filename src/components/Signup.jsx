@@ -5,9 +5,7 @@ const Signup = () => {
     <>
         <div className='text-[#5C6874] text-[32px] grid md:grid-cols-2 grid-cols-1 px-16 py-16'>
             <div><p>Sign up and get exclusive special deals</p></div>
-            
             <div className="  bg-white   text-[14px] flex items-center ">
-
             <input
              type="text"
             className="pl-10 rounded-md focus:outline-none focus:none  px-3"

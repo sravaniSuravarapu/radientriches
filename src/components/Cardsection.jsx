@@ -1,5 +1,4 @@
 import React from 'react'
-import monitor from '../assests/download 1.png'
 import Carddata from './data/Carddata'
 
 const Cardsection = () => {
